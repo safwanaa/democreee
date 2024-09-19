@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import MainImage from '../assets/mainimage.jpg';
-import card1Image from '../assets/card1.jpg.jpg'; // Import the image
-import card2Image from '../assets/card2.jpg.jpg'; // Import the image
-import card3Image from '../assets/card3.jpg.jpg'; // Import the image
+import card1Image from '../assets/card1.jpg'; // Import the image
+import card2Image from '../assets/card2.jpg'; // Import the image
+import card3Image from '../assets/card3.jpg'; // Import the image
 import card4Image from '../assets/card4.jpg'; // Import the image
 import card5Image from '../assets/card5.jpg'; // Import the image
 import mapImage from '../assets/map.jpg'; // Adjust the path based on your folder structure

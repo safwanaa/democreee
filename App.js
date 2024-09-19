@@ -9,7 +9,7 @@ function App() {
      <Router>
         <Navbar />
         <Routes> {/* Use Routes instead of Switch */}
-          
+        <Route path="/" element={<Navbar />} />
          
         </Routes>
       </Router>
@@ -18,3 +18,5 @@ function App() {
 }
 
 export default App;
+ 
+
