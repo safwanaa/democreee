@@ -28,7 +28,7 @@ const cardData = [
       "VIDA Residences @ Creek Beach",
       "Creek Beach, Dubai Creek Harbour Dubai",
       "From AED 1,730,000"
-    ].join('<br/>'), // Join with <br /> tags
+    ].join('<br/>'), 
   },
   {
     image: card3Image,
@@ -38,7 +38,7 @@ const cardData = [
       "CHIC Tower",
       "Business Bay Dubai",
       "From AED 1,822,000"
-    ].join('<br/>'), // Join with <br /> tags
+    ].join('<br/>'),
   },
   {
     image: card1Image,
@@ -67,7 +67,7 @@ const cardData = [
     text: [
       "CHIC Tower",
       "Business Bay Dubai",
-      "From AED 1,822,000"
+      "From AED 1,822,000",
     ].join('<br/>'), 
   },
 ];
@@ -80,7 +80,7 @@ const cardData1 = [
     text: [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
-      "From AED 1,840,000"
+      "From AED 1,840,000",
     ].join('<br/>'), 
   },
   {
@@ -90,7 +90,7 @@ const cardData1 = [
     text: [
       "VIDA Residences @ Creek Beach",
       "Creek Beach, Dubai Creek Harbour Dubai",
-      "From AED 1,730,000"
+      "From AED 1,730,000",
     ].join('<br/>'), 
   },
   {
@@ -100,7 +100,7 @@ const cardData1 = [
     text: [
       "CHIC Tower",
       "Business Bay Dubai",
-      "From AED 1,822,000"
+      "From AED 1,822,000",
     ].join('<br/>'), 
   },
   {
@@ -110,7 +110,7 @@ const cardData1 = [
     text: [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
-      "From AED 1,840,000"
+      "From AED 1,840,000",
     ].join('<br/>'), 
   },
   {
@@ -120,8 +120,8 @@ const cardData1 = [
     text: [
       "VIDA Residences @ Creek Beach",
       "Creek Beach, Dubai Creek Harbour Dubai",
-      "From AED 1,730,000"
-    ].join('<br/>'), // Join with <br /> tags
+      "From AED 1,730,000",
+    ].join('<br/>'), 
   },
   {
     image: card3Image,
@@ -130,8 +130,8 @@ const cardData1 = [
     text: [
       "CHIC Tower",
       "Business Bay Dubai",
-      "From AED 1,822,000"
-    ].join('<br/>'), // Join with <br /> tags
+      "From AED 1,822,000",
+    ].join('<br/>'), 
   },
   {
     image: card4Image,
@@ -140,8 +140,8 @@ const cardData1 = [
     text: [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
-      "From AED 1,840,000"
-    ].join('<br/>'), // Join with <br /> tags
+      "From AED 1,840,000",
+    ].join('<br/>'),
   },
   {
     image: card5Image,
@@ -150,8 +150,8 @@ const cardData1 = [
     text: [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
-      "From AED 1,840,000"
-    ].join('<br/>'), // Join with <br /> tags
+      "From AED 1,840,000",
+    ].join('<br/>'), 
   },
 ];
 
@@ -163,8 +163,8 @@ const cardData3 = [
     text: [
       "20 November 2022",
       "lorem ipsum dolor sit amet, counseler adipolising",
-      "pellentistise pellentise solladase purus"
-    ].join('<br/>'), // Join with <br /> tags
+      "pellentistise pellentise solladase purus",
+    ].join('<br/>'), 
   },
   {
     image: card2Image,
@@ -173,8 +173,8 @@ const cardData3 = [
     text: [
       "20 November 2022",
       "lorem ipsum dolor sit amet, counseler adipolising",
-      "pellentistise pellentise solladase purus"
-    ].join('<br/>'), // Join with <br /> tags
+      "pellentistise pellentise solladase purus",
+    ].join('<br/>'), 
   },
   {
     image: card2Image,
@@ -183,8 +183,8 @@ const cardData3 = [
     text: [
       "20 November 2022",
       "lorem ipsum dolor sit amet, counseler adipolising",
-      "pellentistise pellentise solladase purus"
-    ].join('<br/>'), // Join with <br /> tags
+      "pellentistise pellentise solladase purus",
+    ].join('<br/>'), 
   },
 ]
 
@@ -287,7 +287,7 @@ function Navbar() {
           </div>
           <div className='card-text'>
         <h4>{card.title}</h4>
-        <p dangerouslySetInnerHTML={{ __html: card.text }}></p> {/* Render HTML */}
+          <p>{card.text }</p> 
       </div>
         </div>
       ))}
@@ -296,7 +296,7 @@ function Navbar() {
 
 <div className='card-3map'>
   <h1>Explore Properties on Map</h1>
-  <div className='map-main'><img src={mapImage} alt="Map" style={{ width: '100%', height: '400px', borderRadius: '10px' }} /></div>
+  <div className='map-main'><img src={mapImage} alt="Map" style={{ width: '100%', height: '400px', borderRadius: '10px' }} ></img></div>
 </div>
 <br/><br/>
 
@@ -323,8 +323,7 @@ lorem ipsum dolor sit amet, consectetur adipisingelit</h4></div>
       </div>
       <div className='card-text-2'>
         <h4>{card.title}</h4>
-        <p dangerouslySetInnerHTML={{ __html: card.text }}></p> {/* Render HTML */}
-      </div>
+        <p>{card.text }</p>      </div>
     </div>
   ))}
 </div>
@@ -356,12 +355,12 @@ lorem ipsum dolor sit amet, consectetur adipisingelit</h4></div>
       <div className='name-area'>
         <h4>TOVINO THOMAS</h4>
         <p>CEO, Demo properties</p>
-        <div className='test-icon'><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-	<g fill="currentColor">
-		<path fill-rule="evenodd" d="M12.51 8.796v1.697a3.74 3.74 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766c-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483a1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.6 1.6 0 0 1 1.6 1.606" clip-rule="evenodd" />
-		<path d="M7.2 8.809H4V19.5h3.2z" />
-	</g>
-</svg>&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+        <div className='test-icon'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+	        <g fill="currentColor">
+		      <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.74 3.74 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766c-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483a1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.6 1.6 0 0 1 1.6 1.606" clip-rule="evenodd" />
+		       <path d="M7.2 8.809H4V19.5h3.2z" />
+	</g></svg>&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
 	<path fill="currentColor" d="M22.213 5.656a8.4 8.4 0 0 1-2.402.658A4.2 4.2 0 0 0 21.649 4c-.82.488-1.719.83-2.655 1.015a4.182 4.182 0 0 0-7.126 3.814a11.87 11.87 0 0 1-8.621-4.37a4.17 4.17 0 0 0-.566 2.103c0 1.45.739 2.731 1.86 3.481a4.2 4.2 0 0 1-1.894-.523v.051a4.185 4.185 0 0 0 3.355 4.102a4.2 4.2 0 0 1-1.89.072A4.185 4.185 0 0 0 8.02 16.65a8.4 8.4 0 0 1-6.192 1.732a11.83 11.83 0 0 0 6.41 1.88c7.694 0 11.9-6.373 11.9-11.9q0-.271-.012-.541a8.5 8.5 0 0 0 2.086-2.164" />
 </svg></div>
 <div className='test-phn'>+971 123456789<br/>
@@ -379,7 +378,8 @@ lorem ipsum dolor sit amet, consectetur adipisingelit</h4></div>
 <p>lorem ipsum dolor sit amet ,counseler adipising elit</p></div>
 
 <div className='card-container-3'>
-  {cardData3.map((card, index) => (
+  {
+  cardData3.map((card, index) => (
     <div className='card-3' key={index}>
       <div className='card-image-3'>
         <img src={card.image} alt={`Card ${index + 1}`} />
@@ -389,7 +389,7 @@ lorem ipsum dolor sit amet, consectetur adipisingelit</h4></div>
       </div>
       <div className='card-text-3'>
         <h4>{card.title}</h4>
-        <p dangerouslySetInnerHTML={{ __html: card.text }}></p> {/* Render HTML */}
+        <p>{card.text }</p> 
       </div>
     </div>
   ))}
