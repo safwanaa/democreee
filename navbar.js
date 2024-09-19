@@ -1,11 +1,11 @@
 import React from 'react';
 import MainImage from '../assets/mainimage.jpg';
-import card1Image from '../assets/card1.jpg'; // Import the image
-import card2Image from '../assets/card2.jpg'; // Import the image
-import card3Image from '../assets/card3.jpg'; // Import the image
-import card4Image from '../assets/card4.jpg'; // Import the image
-import card5Image from '../assets/card5.jpg'; // Import the image
-import mapImage from '../assets/map.jpg'; // Adjust the path based on your folder structure
+import card1Image from '../assets/card1.jpg'; 
+import card2Image from '../assets/card2.jpg';
+import card3Image from '../assets/card3.jpg'; 
+import card4Image from '../assets/card4.jpg';
+import card5Image from '../assets/card5.jpg'; 
+import mapImage from '../assets/map.jpg'; 
 import profileImage from '../assets/tovino-pic.jpg';
 
 
@@ -18,7 +18,7 @@ const cardData = [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
       "From AED 1,840,000"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), 
   },
   {
     image: card2Image,
@@ -28,7 +28,7 @@ const cardData = [
       "VIDA Residences @ Creek Beach",
       "Creek Beach, Dubai Creek Harbour Dubai",
       "From AED 1,730,000"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
   {
     image: card3Image,
@@ -38,7 +38,7 @@ const cardData = [
       "CHIC Tower",
       "Business Bay Dubai",
       "From AED 1,822,000"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
   {
     image: card1Image,
@@ -48,7 +48,7 @@ const cardData = [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
       "From AED 1,840,000"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
   {
     image: card2Image,
@@ -58,7 +58,7 @@ const cardData = [
       "VIDA Residences @ Creek Beach",
       "Creek Beach, Dubai Creek Harbour Dubai",
       "From AED 1,730,000"
-    ].join('<br />'), 
+    ].join('<br/>'), 
   },
   {
     image: card3Image,
@@ -68,7 +68,7 @@ const cardData = [
       "CHIC Tower",
       "Business Bay Dubai",
       "From AED 1,822,000"
-    ].join('<br />'), 
+    ].join('<br/>'), 
   },
 ];
 
@@ -81,7 +81,7 @@ const cardData1 = [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
       "From AED 1,840,000"
-    ].join('<br />'), 
+    ].join('<br/>'), 
   },
   {
     image: card2Image,
@@ -91,7 +91,7 @@ const cardData1 = [
       "VIDA Residences @ Creek Beach",
       "Creek Beach, Dubai Creek Harbour Dubai",
       "From AED 1,730,000"
-    ].join('<br />'), 
+    ].join('<br/>'), 
   },
   {
     image: card3Image,
@@ -101,7 +101,7 @@ const cardData1 = [
       "CHIC Tower",
       "Business Bay Dubai",
       "From AED 1,822,000"
-    ].join('<br />'), 
+    ].join('<br/>'), 
   },
   {
     image: card1Image,
@@ -111,7 +111,7 @@ const cardData1 = [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
       "From AED 1,840,000"
-    ].join('<br />'), 
+    ].join('<br/>'), 
   },
   {
     image: card2Image,
@@ -121,7 +121,7 @@ const cardData1 = [
       "VIDA Residences @ Creek Beach",
       "Creek Beach, Dubai Creek Harbour Dubai",
       "From AED 1,730,000"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
   {
     image: card3Image,
@@ -131,7 +131,7 @@ const cardData1 = [
       "CHIC Tower",
       "Business Bay Dubai",
       "From AED 1,822,000"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
   {
     image: card4Image,
@@ -141,7 +141,7 @@ const cardData1 = [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
       "From AED 1,840,000"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
   {
     image: card5Image,
@@ -151,7 +151,7 @@ const cardData1 = [
       "Bliss - Arabian Ranches lllBliss-Arabian Rnches lll",
       "Bliss -  Arabian Ranches lll Dubai",
       "From AED 1,840,000"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
 ];
 
@@ -164,7 +164,7 @@ const cardData3 = [
       "20 November 2022",
       "lorem ipsum dolor sit amet, counseler adipolising",
       "pellentistise pellentise solladase purus"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
   {
     image: card2Image,
@@ -174,7 +174,7 @@ const cardData3 = [
       "20 November 2022",
       "lorem ipsum dolor sit amet, counseler adipolising",
       "pellentistise pellentise solladase purus"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
   {
     image: card2Image,
@@ -184,7 +184,7 @@ const cardData3 = [
       "20 November 2022",
       "lorem ipsum dolor sit amet, counseler adipolising",
       "pellentistise pellentise solladase purus"
-    ].join('<br />'), // Join with <br /> tags
+    ].join('<br/>'), // Join with <br /> tags
   },
 ]
 
@@ -224,7 +224,7 @@ function Navbar() {
     </div> */}
 
         </nav>
-        <img src={MainImage} alt='Background Image' className='background-image' />
+        <img src={MainImage} alt='Background Image' className='background-image'/>
         <div className="card-main">
   <div className="card-header">
     <h5>Buy Off-Plan Property</h5>
@@ -279,7 +279,7 @@ function Navbar() {
       {cardData.map((card, index) => (
         <div className='card' key={index}>
           <div className='card-image'>
-            <img src={card.image} alt={`Card ${index + 1}`} />
+            <img src={card.image} alt={`Card ${index + 1}`}/>
             <div className='label-wrapper'>
               <span className='label label1'>{card.labels[0]}</span>
               <span className='label label2'>{card.labels[1]}</span>
@@ -338,10 +338,10 @@ lorem ipsum dolor sit amet, consectetur adipisingelit</h4></div>
      <input type='text' placeholder='Name*' />
     </p>
     <p>
-       <input type='tel' placeholder='Phone number*' />
+       <input type='tel' placeholder='Phone number*'/>
     </p>
     <p>
-       <input type='email' placeholder='Email*' />
+       <input type='email' placeholder='Email*'/>
     </p>
     <button className='request-btn'>Request a free Callback</button>
   </div>
@@ -352,7 +352,7 @@ lorem ipsum dolor sit amet, consectetur adipisingelit</h4></div>
     <h3>has always been and will always</h3>
     <h3> our priority. "</h3>
     <div className='profile-section'>
-      <img src={profileImage} alt='Profile' className='profile-pic' />
+      <img src={profileImage} alt='Profile' className='profile-pic'/>
       <div className='name-area'>
         <h4>TOVINO THOMAS</h4>
         <p>CEO, Demo properties</p>
