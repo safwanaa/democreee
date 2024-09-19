@@ -224,7 +224,7 @@ function Navbar() {
     </div> */}
 
         </nav>
-        <img src={MainImage} alt='Background Image' className='background-image'/>
+        <img src={MainImage} alt='Background Image' className='background-image'></img>
         <div className="card-main">
   <div className="card-header">
     <h5>Buy Off-Plan Property</h5>
@@ -352,7 +352,7 @@ lorem ipsum dolor sit amet, consectetur adipisingelit</h4></div>
     <h3>has always been and will always</h3>
     <h3> our priority. "</h3>
     <div className='profile-section'>
-      <img src={profileImage} alt='Profile' className='profile-pic'/>
+      <img src={profileImage} alt='Profile' className='profile-pic'></img>
       <div className='name-area'>
         <h4>TOVINO THOMAS</h4>
         <p>CEO, Demo properties</p>
